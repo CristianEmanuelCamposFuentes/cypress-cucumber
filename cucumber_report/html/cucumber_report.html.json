@@ -1,0 +1,114 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Manage Todo Steps",
+    "line": 1,
+    "id": "manage-todo-steps",
+    "tags": [],
+    "uri": "Todo.feature",
+    "elements": [
+      {
+        "id": "manage-todo-steps;add-a-new-todo",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Add a new TODO",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the TODO homepage",
+            "result": {
+              "status": "passed",
+              "duration": 413000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I submit a new TODO \"Task 1\"",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I submit a new TODO \"Task 2\"",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the count of pending items is 4",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "retried": null
+      },
+      {
+        "id": "manage-todo-steps;check-an-item",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Check an item",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the TODO homepage",
+            "result": {
+              "status": "passed",
+              "duration": 114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "I submitted a new TODO \"Task 1\"",
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "I check the item #3",
+            "result": {
+              "status": "passed",
+              "duration": 84000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the count of pending items is 2",
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          }
+        ],
+        "retried": null
+      }
+    ]
+  }
+]

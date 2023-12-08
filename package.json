@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress open",
+    "posttest": "node cucumber-html-report.js"
   },
   "keywords": [],
   "author": "",
@@ -26,6 +27,7 @@
   "dependencies": {
     "cucumber-html-reporter": "^7.1.1",
     "cypress-multi-reporters": "^1.6.4",
+    "fs-extra": "^11.2.0",
     "multiple-cucumber-html-reporter": "^3.5.0"
   }
 }
