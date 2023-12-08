@@ -11,4 +11,4 @@ Feature: Manage Todo Steps
     Scenario: Check an item
       Given I submitted a new TODO "Task 1"
       When I check the item #3
-      Then the count of pending items is 3
+      Then the count of pending items is 2
