@@ -1,15 +1,16 @@
 {
   "baseUrl": "https://example.cypress.io/todo#",
   "testFiles": ["**/*.feature"],
-  "reporter": "cypress-multi-reporters",
+  "reporter": "mochawesome",
   "reporterOptions": {
     "reporterEnabled": "mochawesome",
     "mochawesomeReporterOptions": {
-      "reporterDir": "cypress/reports/mocha",
+      "reporterDir": "cypress/report/mochawesome-report",
       "quite": true,
-      "overwrite": false,
+      "overwrite": true,
       "html": true,
-      "json": true
+      "json": false,
+      "timestamp": "mmddyyyy_HHMMss"
     }
   }
 }

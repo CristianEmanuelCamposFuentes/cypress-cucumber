@@ -22,7 +22,7 @@
             "name": "I visit the TODO homepage",
             "result": {
               "status": "passed",
-              "duration": 600000000
+              "duration": 1166000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I submit a new TODO \"Task 1\"",
             "result": {
               "status": "passed",
-              "duration": 162000000
+              "duration": 182000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I submit a new TODO \"Task 2\"",
             "result": {
               "status": "passed",
-              "duration": 167000000
+              "duration": 155000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "the count of pending items is 4",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 17000000
             }
           }
         ],
@@ -73,7 +73,7 @@
             "name": "I visit the TODO homepage",
             "result": {
               "status": "passed",
-              "duration": 114000000
+              "duration": 115000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "I submitted a new TODO \"Task 1\"",
             "result": {
               "status": "passed",
-              "duration": 224000000
+              "duration": 227000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "I check the item #3",
             "result": {
               "status": "passed",
-              "duration": 94000000
+              "duration": 91000000
             }
           },
           {
@@ -103,7 +103,7 @@
             "name": "the count of pending items is 2",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           }
         ],
